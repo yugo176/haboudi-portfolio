@@ -1,0 +1,28 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+/build
+next-env.d.ts
+*.tsbuildinfo
+
+# env files : jamais de clés dans le dépôt
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# fichiers d'origine (CV Word, archives, rapport de stage…) : restent sur la machine
+/sources/
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# réglages propres à cette machine
+.npmrc
+.claude/

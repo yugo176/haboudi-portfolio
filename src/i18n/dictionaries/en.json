@@ -1,0 +1,332 @@
+{
+  "meta": {
+    "title": "Haboudi Boukari — Software engineer",
+    "description": "Full-stack software engineer based in Parakou, Benin. I build web and mobile platforms for businesses and bring in AI where it saves time.",
+    "jobTitle": "Software engineer · Future AI and scientific modelling engineer"
+  },
+  "nav": {
+    "home": "Home",
+    "work": "Work",
+    "journey": "About",
+    "agriculture": "Agriculture",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close",
+    "skip": "Skip to content",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Software engineer",
+    "titleRest": "Future AI and scientific modelling engineer",
+    "pitch": "I build web and mobile platforms for businesses, from showcase sites to business applications.",
+    "ctaWork": "See my work",
+    "ctaContact": "Get in touch",
+    "trusted": "Trusted by"
+  },
+  "services": {
+    "label": "Services",
+    "title": "What I do",
+    "intro": "From the brief to launch: design, development, deployment and follow-up. Hover or tap a service to see it.",
+    "chat": {
+      "name": "Shop assistant",
+      "status": "online",
+      "note": "Example",
+      "placeholder": "Write a message…",
+      "messages": [
+        {
+          "from": "client",
+          "text": "Hello, do you deliver to Parakou?"
+        },
+        {
+          "from": "ai",
+          "text": "Hello! Yes, we deliver to Parakou within 24 to 48 hours. What would you like to order?"
+        },
+        {
+          "from": "client",
+          "text": "Two 25 kg bags of rice, please."
+        },
+        {
+          "from": "ai",
+          "text": "Got it: 2 bags of rice, 25 kg each. Shall I send you the Mobile Money payment link?"
+        },
+        {
+          "from": "client",
+          "text": "Yes, thanks. Can I track the delivery?"
+        },
+        {
+          "from": "ai",
+          "text": "Of course. You'll get a tracking link by SMS as soon as the courier leaves."
+        }
+      ]
+    }
+  },
+  "featured": {
+    "label": "Projects",
+    "title": "Selected work",
+    "intro": "Four of the projects I designed and built, from live client sites to a platform in progress.",
+    "all": "See all work",
+    "allHint": "Websites, platforms, AI, academic work"
+  },
+  "journey": {
+    "label": "Journey",
+    "title": "From Parakou to engineering",
+    "intro": "An engineering student in computer science, logistics and operations research, already working with companies.",
+    "cta": "Full background"
+  },
+  "ai": {
+    "label": "AI and automation",
+    "title": "What takes up your time,",
+    "titleEm": "AI takes care of",
+    "intro": "I plug AI into the tools you already use: it answers, sorts, records and alerts your team at the right moment.",
+    "flowLabel": "Automation example: a customer message handled by an AI assistant, saved in your tools, then passed to your team",
+    "flow": [
+      {
+        "title": "A customer message",
+        "body": "WhatsApp, Instagram, website"
+      },
+      {
+        "title": "The AI assistant",
+        "body": "understands, replies, qualifies"
+      },
+      {
+        "title": "Your tools",
+        "body": "CRM, Google Sheets, database"
+      },
+      {
+        "title": "Your team",
+        "body": "alerted at the right time"
+      }
+    ],
+    "cards": [
+      {
+        "kicker": "Customer service",
+        "title": "Conversational assistants",
+        "body": "On WhatsApp or your website: they answer common questions, qualify requests and feed your CRM."
+      },
+      {
+        "kicker": "Time saved",
+        "title": "Automation",
+        "body": "Reading documents, data entry, syncing your tools and alerts: repetitive tasks run on their own."
+      },
+      {
+        "kicker": "Custom models",
+        "title": "Train and deploy",
+        "body": "Training and fine-tuning models (PyTorch, Hugging Face), deployed as APIs and built into your apps."
+      }
+    ],
+    "curious": "For the curious: AI applied to agriculture and maps"
+  },
+  "contactTeaser": {
+    "label": "Contact",
+    "title": "Got a project in mind?",
+    "titleEm": "Let's talk.",
+    "body": "Tell me what you need: I reply within 24 hours, in French or English.",
+    "cta": "Describe my project",
+    "copyEmail": "Copy email address",
+    "copied": "Copied ✓"
+  },
+  "status": {
+    "live": "Live",
+    "delivered": "Delivered",
+    "in-progress": "In progress",
+    "prototype": "Prototype",
+    "showcase": "Showcase",
+    "ai-project": "AI project",
+    "competition": "Competition",
+    "report": "Report",
+    "project": "Project"
+  },
+  "categories": {
+    "all": "All",
+    "clients": "Client sites",
+    "platforms": "Platforms",
+    "ai": "AI",
+    "academic": "Academic"
+  },
+  "categorySingular": {
+    "clients": "Client site",
+    "platforms": "Platform",
+    "ai": "AI",
+    "academic": "Academic work"
+  },
+  "work": {
+    "label": "Work",
+    "title": "What I've",
+    "titleEm": "built.",
+    "intro": "Client sites, platforms, AI projects and academic work, from the most recent to the oldest.",
+    "filterLabel": "Filter projects",
+    "viewLabel": "View",
+    "grid": "Grid",
+    "list": "List",
+    "caseStudy": "Case study",
+    "screenshotSoon": "Screenshot coming soon"
+  },
+  "detail": {
+    "back": "All work",
+    "caseStudy": "Case study",
+    "academic": "Academic work",
+    "need": "The need",
+    "context": "Context",
+    "built": "What I built",
+    "architecture": "Architecture",
+    "simulator": "The quote simulator",
+    "pipeline": "How it works",
+    "decisions": "Technical choices",
+    "stack": "Stack",
+    "state": "Where it stands",
+    "next": "Next case study",
+    "others": "Other projects",
+    "otherAcademic": "Other academic work",
+    "abstract": "Summary",
+    "approach": "Approach",
+    "results": "Results",
+    "figures": "Figures",
+    "visit": "Visit",
+    "code": "Source code",
+    "codeSoon": "Source code coming soon",
+    "screenshotsSoon": "Screenshots coming soon"
+  },
+  "journeyPage": {
+    "label": "About",
+    "title": "Building software,",
+    "titleEm": "modelling problems.",
+    "intro1": "I'm Haboudi Boukari, a full-stack software engineer based in Parakou, Benin. I've been coding since 2021: first self-taught through freelance projects, then within companies. My work covers websites and online shops, business platforms, mobile apps and AI integration.",
+    "intro2": "I'm completing my engineering degree in computer science, logistics and operations research at ENSGMM. It taught me to model a problem, optimise it and analyse it from data before writing the first line of code.",
+    "intro3": "I'm open to freelance projects and software engineering roles. Alongside, I'm deepening my machine learning skills ahead of a master's in AI.",
+    "photoCaption": "Haboudi BOUKARI · Parakou, Benin",
+    "photoAlt": "Portrait of Haboudi BOUKARI, arms crossed",
+    "facts": [
+      {
+        "label": "Name",
+        "value": "Haboudi BOUKARI"
+      },
+      {
+        "label": "Based in",
+        "value": "Parakou, Benin · also remote"
+      },
+      {
+        "label": "Experience",
+        "value": "5 years · since 2021"
+      },
+      {
+        "label": "Speciality",
+        "value": "Full stack · web and mobile"
+      },
+      {
+        "label": "Education",
+        "value": "Engineering (CS, logistics, OR) · ENSGMM"
+      },
+      {
+        "label": "Languages",
+        "value": "French · English"
+      },
+      {
+        "label": "Availability",
+        "value": "Freelance and full-time"
+      }
+    ],
+    "cv": "Download my CV",
+    "contact": "Get in touch",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "certifications": "Certifications and competitions",
+    "vision": "Where I'm heading",
+    "visionLead": "To become an AI research engineer, bringing two demands together:",
+    "visionLeadEm": "a scientific contribution, and a system that works in the real world.",
+    "vision1": "I plan a master's in AI, then a PhD, to deepen the mathematical foundations of machine learning, deep learning and optimisation. The fields that draw me: precision agriculture, satellite and multispectral image analysis, the environment, decision support and scientific simulation.",
+    "vision2": "In the long run, I want to help build high-level African scientific and technological research, combining mathematical rigour, computing power and real impact.",
+    "motto": "Per aspera",
+    "mottoEm": "ad astra.",
+    "mottoTranslation": "Through hardships, to the stars.",
+    "viewCertificate": "View certificate"
+  },
+  "agri": {
+    "label": "Digital agriculture",
+    "badge": "For the curious",
+    "title": "Where data",
+    "titleEm": "meets the field.",
+    "intro": "A field I'm building up: drone mapping, geographic information systems and remote sensing, with the aim of applying artificial intelligence to them.",
+    "galleryLabel": "Choose a map",
+    "madeBy": "Made by Haboudi Boukari",
+    "openFull": "Open full size",
+    "skills": "What I can do",
+    "ndvi": "Reading a plant",
+    "ndviBody": "A healthy plant absorbs red light and strongly reflects near infrared. A multispectral sensor measures both, and a simple calculation reveals the vigour of each plot, often before the eye can see a problem.",
+    "ndviFormula": "NDVI = (NIR − Red) / (NIR + Red)",
+    "bareSoil": "bare soil",
+    "denseVegetation": "dense vegetation",
+    "next": "Where I want to go",
+    "nextIntro": "Directions I plan to explore by combining these images with machine learning:",
+    "more": "Going further",
+    "certificate": "Certification · June 2026",
+    "related": "Related project · prototype",
+    "cta": "An agriculture project?"
+  },
+  "contactPage": {
+    "label": "Contact",
+    "title": "Let's talk about",
+    "titleEm": "your project.",
+    "intro": "Describe what you need in a few lines. I reply within 24 hours, in French or English.",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "copy": "Copy",
+    "copied": "Copied ✓",
+    "location": "Parakou, Benin · I also work remotely",
+    "form": {
+      "types": "Your project",
+      "typesHint": "several choices allowed",
+      "typeOptions": {
+        "site": "Website or shop",
+        "platform": "Business platform",
+        "mobile": "Mobile app",
+        "ai": "AI integration",
+        "other": "Other"
+      },
+      "timeline": "Timeline",
+      "optional": "optional",
+      "timelineOptions": {
+        "asap": "As soon as possible",
+        "soon": "In 1 to 3 months",
+        "unknown": "Not decided yet"
+      },
+      "name": "Name",
+      "namePlaceholder": "Awa Dossou",
+      "emailLabel": "Email",
+      "emailPlaceholder": "awa@company.com",
+      "company": "Company",
+      "companyPlaceholder": "Your company name",
+      "message": "Your message",
+      "messagePlaceholder": "I'd like an online shop to sell my products, with Mobile Money payment…",
+      "privacy": "Your details are only used to reply to you.",
+      "submit": "Send message",
+      "sending": "Sending…"
+    },
+    "errors": {
+      "types_required": "Choose at least one project type.",
+      "name_required": "Enter your name.",
+      "email_invalid": "Enter a valid email address.",
+      "message_short": "Describe what you need in a few words (at least 20 characters).",
+      "message_long": "Your message is too long.",
+      "send_failed": "Sending didn't work. Try again, or write to me directly by email or WhatsApp.",
+      "unavailable": "The form isn't connected to my inbox yet. Write to me directly by email or WhatsApp."
+    },
+    "success": {
+      "title": "Thank you,",
+      "titleEm": "it's sent.",
+      "body": "I'll read your message and reply within 24 hours.",
+      "again": "Send another message"
+    }
+  },
+  "footer": {
+    "rights": "© 2026 Haboudi Boukari",
+    "cv": "CV"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "This page doesn't exist, or no longer does.",
+    "home": "Back to home"
+  }
+}

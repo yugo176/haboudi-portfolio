@@ -1,0 +1,332 @@
+{
+  "meta": {
+    "title": "Haboudi Boukari — Ingénieur logiciel",
+    "description": "Ingénieur logiciel full stack basé à Parakou, au Bénin. Je conçois des plateformes web et mobiles pour les entreprises et j'intègre l'IA là où elle fait gagner du temps.",
+    "jobTitle": "Ingénieur logiciel · Futur ingénieur en IA et modélisation scientifique"
+  },
+  "nav": {
+    "home": "Accueil",
+    "work": "Travaux",
+    "journey": "Parcours",
+    "agriculture": "Agriculture",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Fermer",
+    "skip": "Aller au contenu",
+    "language": "Langue"
+  },
+  "hero": {
+    "title": "Ingénieur logiciel",
+    "titleRest": "Futur ingénieur en IA et modélisation scientifique",
+    "pitch": "Je conçois des plateformes web et mobiles pour les entreprises, du site vitrine à l'application métier.",
+    "ctaWork": "Voir mes travaux",
+    "ctaContact": "Me contacter",
+    "trusted": "Ils m'ont fait confiance"
+  },
+  "services": {
+    "label": "Services",
+    "title": "Ce que je fais",
+    "intro": "Du besoin à la mise en ligne : conception, développement, déploiement et suivi. Survolez ou touchez un service pour le voir.",
+    "chat": {
+      "name": "Assistant de la boutique",
+      "status": "en ligne",
+      "note": "Exemple",
+      "placeholder": "Écrire un message…",
+      "messages": [
+        {
+          "from": "client",
+          "text": "Bonjour, vous livrez à Parakou ?"
+        },
+        {
+          "from": "ai",
+          "text": "Bonjour ! Oui, nous livrons à Parakou sous 24 à 48 h. Que souhaitez-vous commander ?"
+        },
+        {
+          "from": "client",
+          "text": "Deux sacs de riz de 25 kg, s'il vous plaît."
+        },
+        {
+          "from": "ai",
+          "text": "C'est noté : 2 sacs de riz de 25 kg. Je vous envoie le lien de paiement Mobile Money ?"
+        },
+        {
+          "from": "client",
+          "text": "Oui, merci. Je pourrai suivre la livraison ?"
+        },
+        {
+          "from": "ai",
+          "text": "Bien sûr. Vous recevrez un lien de suivi par SMS dès que le livreur part."
+        }
+      ]
+    }
+  },
+  "featured": {
+    "label": "Réalisations",
+    "title": "Travaux choisis",
+    "intro": "Quatre projets parmi ceux que j'ai conçus et développés, du site client en ligne à la plateforme en cours.",
+    "all": "Voir tous les travaux",
+    "allHint": "Sites, plateformes, IA, travaux académiques"
+  },
+  "journey": {
+    "label": "Parcours",
+    "title": "De Parakou à l'ingénierie",
+    "intro": "Élève-ingénieur en informatique, logistique et recherche opérationnelle, je travaille déjà en entreprise.",
+    "cta": "Mon parcours complet"
+  },
+  "ai": {
+    "label": "IA et automatisation",
+    "title": "Ce qui vous prend du temps,",
+    "titleEm": "l'IA s'en charge",
+    "intro": "J'intègre l'IA dans vos outils existants : elle répond, trie, enregistre et prévient votre équipe au bon moment.",
+    "flowLabel": "Exemple d'automatisation : un message client traité par un assistant IA, enregistré dans vos outils, puis transmis à votre équipe",
+    "flow": [
+      {
+        "title": "Un message client",
+        "body": "WhatsApp, Instagram, site web"
+      },
+      {
+        "title": "L'assistant IA",
+        "body": "comprend, répond, qualifie"
+      },
+      {
+        "title": "Vos outils",
+        "body": "CRM, Google Sheets, base de données"
+      },
+      {
+        "title": "Votre équipe",
+        "body": "prévenue au bon moment"
+      }
+    ],
+    "cards": [
+      {
+        "kicker": "Relation client",
+        "title": "Assistants conversationnels",
+        "body": "Sur WhatsApp ou votre site : ils répondent aux questions fréquentes, qualifient les demandes et alimentent votre CRM."
+      },
+      {
+        "kicker": "Gain de temps",
+        "title": "Automatisation",
+        "body": "Lecture de documents, saisie, synchronisation entre vos outils et alertes : les tâches répétitives se font seules."
+      },
+      {
+        "kicker": "Modèles sur mesure",
+        "title": "Entraîner et déployer",
+        "body": "Entraînement et ajustement de modèles (PyTorch, Hugging Face), déployés en API et intégrés à vos applications."
+      }
+    ],
+    "curious": "Pour les curieux : l'IA appliquée à l'agriculture et aux cartes"
+  },
+  "contactTeaser": {
+    "label": "Contact",
+    "title": "Un projet en tête ?",
+    "titleEm": "Parlons-en.",
+    "body": "Racontez-moi votre besoin : je vous réponds sous 24 heures, en français ou en anglais.",
+    "cta": "Décrire mon projet",
+    "copyEmail": "Copier l'adresse email",
+    "copied": "Copié ✓"
+  },
+  "status": {
+    "live": "En ligne",
+    "delivered": "Livré",
+    "in-progress": "En cours",
+    "prototype": "Prototype",
+    "showcase": "Vitrine",
+    "ai-project": "Projet IA",
+    "competition": "Compétition",
+    "report": "Rapport",
+    "project": "Projet"
+  },
+  "categories": {
+    "all": "Tous",
+    "clients": "Sites clients",
+    "platforms": "Plateformes",
+    "ai": "IA",
+    "academic": "Académique"
+  },
+  "categorySingular": {
+    "clients": "Site client",
+    "platforms": "Plateforme",
+    "ai": "IA",
+    "academic": "Travail académique"
+  },
+  "work": {
+    "label": "Travaux",
+    "title": "Ce que j'ai",
+    "titleEm": "construit.",
+    "intro": "Sites clients, plateformes, projets d'IA et travaux académiques, du plus récent au plus ancien.",
+    "filterLabel": "Filtrer les projets",
+    "viewLabel": "Affichage",
+    "grid": "Grille",
+    "list": "Liste",
+    "caseStudy": "Étude de cas",
+    "screenshotSoon": "Capture à venir"
+  },
+  "detail": {
+    "back": "Tous les travaux",
+    "caseStudy": "Étude de cas",
+    "academic": "Travail académique",
+    "need": "Le besoin",
+    "context": "Le contexte",
+    "built": "Ce que j'ai construit",
+    "architecture": "Architecture",
+    "simulator": "Le simulateur de devis",
+    "pipeline": "Comment ça marche",
+    "decisions": "Choix techniques",
+    "stack": "Technologies",
+    "state": "Où en est le projet",
+    "next": "Étude de cas suivante",
+    "others": "Autres projets",
+    "otherAcademic": "Autres travaux académiques",
+    "abstract": "Résumé",
+    "approach": "Démarche",
+    "results": "Résultats",
+    "figures": "Figures",
+    "visit": "Visiter",
+    "code": "Code source",
+    "codeSoon": "Code source bientôt disponible",
+    "screenshotsSoon": "Captures à venir"
+  },
+  "journeyPage": {
+    "label": "Parcours",
+    "title": "Concevoir des logiciels,",
+    "titleEm": "modéliser les problèmes.",
+    "intro1": "Je suis Haboudi Boukari, ingénieur logiciel full stack basé à Parakou, au Bénin. Je développe depuis 2021 : d'abord en autodidacte, à travers des missions freelance, puis en entreprise. Mon travail couvre les sites et boutiques en ligne, les plateformes métier, les applications mobiles et l'intégration d'IA.",
+    "intro2": "Je termine mon cycle d'ingénieur en informatique, logistique et recherche opérationnelle à l'ENSGMM. Cette formation m'a appris à modéliser un problème, à l'optimiser et à l'analyser à partir des données, avant d'écrire la première ligne de code.",
+    "intro3": "Je suis ouvert aux missions freelance et aux postes d'ingénieur logiciel. En parallèle, j'approfondis l'apprentissage automatique en vue d'un master en IA.",
+    "photoCaption": "Haboudi BOUKARI · Parakou, Bénin",
+    "photoAlt": "Portrait de Haboudi BOUKARI, bras croisés",
+    "facts": [
+      {
+        "label": "Nom",
+        "value": "Haboudi BOUKARI"
+      },
+      {
+        "label": "Basé à",
+        "value": "Parakou, Bénin · aussi à distance"
+      },
+      {
+        "label": "Expérience",
+        "value": "5 ans · depuis 2021"
+      },
+      {
+        "label": "Spécialité",
+        "value": "Full stack · web et mobile"
+      },
+      {
+        "label": "Formation",
+        "value": "Ingénieur ILRO · ENSGMM"
+      },
+      {
+        "label": "Langues",
+        "value": "Français · anglais"
+      },
+      {
+        "label": "Disponibilité",
+        "value": "Freelance et emploi"
+      }
+    ],
+    "cv": "Télécharger mon CV",
+    "contact": "Me contacter",
+    "experience": "Expérience",
+    "education": "Formation",
+    "skills": "Compétences",
+    "certifications": "Certifications et compétitions",
+    "vision": "Où je vais",
+    "visionLead": "Devenir ingénieur-chercheur en intelligence artificielle, et réunir deux exigences :",
+    "visionLeadEm": "une contribution scientifique, et un système qui fonctionne dans le monde réel.",
+    "vision1": "Je prévois un master en IA, puis un doctorat, pour approfondir les fondements mathématiques de l'apprentissage automatique, le deep learning et l'optimisation. Les domaines qui m'attirent : l'agriculture de précision, l'analyse d'images satellitaires et multispectrales, l'environnement, l'aide à la décision et la simulation scientifique.",
+    "vision2": "À long terme, je veux participer à l'émergence d'une recherche scientifique et technologique africaine de haut niveau, qui associe rigueur mathématique, puissance informatique et impact réel.",
+    "motto": "Per aspera",
+    "mottoEm": "ad astra.",
+    "mottoTranslation": "À travers les difficultés, jusqu'aux étoiles.",
+    "viewCertificate": "Voir le certificat"
+  },
+  "agri": {
+    "label": "Agriculture numérique",
+    "badge": "Pour les curieux",
+    "title": "Là où les données",
+    "titleEm": "rencontrent le terrain.",
+    "intro": "Un domaine que je construis : la cartographie par drone, les systèmes d'information géographique et la télédétection, avec l'envie d'y appliquer l'intelligence artificielle.",
+    "galleryLabel": "Choisir une carte",
+    "madeBy": "Réalisation : Haboudi Boukari",
+    "openFull": "Ouvrir en grand",
+    "skills": "Ce que je sais faire",
+    "ndvi": "Lire une plante",
+    "ndviBody": "Une plante en bonne santé absorbe la lumière rouge et renvoie fortement le proche infrarouge. Un capteur multispectral mesure les deux, et un simple calcul révèle la vigueur de chaque parcelle, souvent avant que l'œil ne voie un problème.",
+    "ndviFormula": "NDVI = (PIR − Rouge) / (PIR + Rouge)",
+    "bareSoil": "sol nu",
+    "denseVegetation": "végétation dense",
+    "next": "Là où je veux aller",
+    "nextIntro": "Des pistes que je compte explorer, en combinant ces images avec l'apprentissage automatique :",
+    "more": "Pour aller plus loin",
+    "certificate": "Certification · juin 2026",
+    "related": "Projet lié · prototype",
+    "cta": "Un projet agricole ?"
+  },
+  "contactPage": {
+    "label": "Contact",
+    "title": "Parlons de",
+    "titleEm": "votre projet.",
+    "intro": "Décrivez votre besoin en quelques lignes. Je vous réponds sous 24 heures, en français ou en anglais.",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "copy": "Copier",
+    "copied": "Copié ✓",
+    "location": "Parakou, Bénin · je travaille aussi à distance",
+    "form": {
+      "types": "Votre projet",
+      "typesHint": "plusieurs choix possibles",
+      "typeOptions": {
+        "site": "Site ou boutique",
+        "platform": "Plateforme métier",
+        "mobile": "Application mobile",
+        "ai": "Intégration d'IA",
+        "other": "Autre"
+      },
+      "timeline": "Échéance",
+      "optional": "facultatif",
+      "timelineOptions": {
+        "asap": "Dès que possible",
+        "soon": "Dans 1 à 3 mois",
+        "unknown": "Pas encore défini"
+      },
+      "name": "Nom",
+      "namePlaceholder": "Awa Dossou",
+      "emailLabel": "Email",
+      "emailPlaceholder": "awa@entreprise.com",
+      "company": "Entreprise",
+      "companyPlaceholder": "Nom de votre entreprise",
+      "message": "Votre message",
+      "messagePlaceholder": "Je souhaite une boutique en ligne pour vendre mes produits, avec paiement Mobile Money…",
+      "privacy": "Vos informations servent uniquement à vous répondre.",
+      "submit": "Envoyer le message",
+      "sending": "Envoi…"
+    },
+    "errors": {
+      "types_required": "Choisissez au moins un type de projet.",
+      "name_required": "Indiquez votre nom.",
+      "email_invalid": "Indiquez une adresse email valide.",
+      "message_short": "Décrivez votre besoin en quelques mots (20 caractères au moins).",
+      "message_long": "Votre message est trop long.",
+      "send_failed": "L'envoi n'a pas fonctionné. Réessayez, ou écrivez-moi directement par email ou WhatsApp.",
+      "unavailable": "Le formulaire n'est pas encore relié à ma boîte mail. Écrivez-moi directement par email ou WhatsApp."
+    },
+    "success": {
+      "title": "Merci,",
+      "titleEm": "c'est envoyé.",
+      "body": "Je lis votre message et je vous réponds sous 24 heures.",
+      "again": "Envoyer un autre message"
+    }
+  },
+  "footer": {
+    "rights": "© 2026 Haboudi Boukari",
+    "cv": "CV"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "body": "Cette page n'existe pas, ou plus.",
+    "home": "Retour à l'accueil"
+  }
+}
