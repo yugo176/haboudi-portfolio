@@ -4,7 +4,7 @@ import { getDictionary } from "@/i18n/get-dictionary";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-export const alt = "Haboudi Boukari";
+export const alt = "Haboudi BOUKARI";
 
 /** Image de partage (réseaux sociaux, messageries). */
 export function generateStaticParams() {
@@ -32,7 +32,7 @@ export default async function OpenGraphImage({ params }: { params: Promise<{ loc
       >
         <div style={{ display: "flex", fontSize: 26, color: "#9CC3E6" }}>{locale === "fr" ? "Parakou, Bénin" : "Parakou, Benin"}</div>
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <div style={{ fontSize: 112, lineHeight: 1 }}>Haboudi Boukari</div>
+          <div style={{ fontSize: 112, lineHeight: 1 }}>Haboudi BOUKARI</div>
           <div style={{ fontSize: 36, marginTop: 28, color: "#A3ABB6", fontFamily: "Arial, sans-serif" }}>{dict.meta.jobTitle}</div>
         </div>
         <div style={{ display: "flex", height: 2, background: "#27303B" }} />

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Haboudi Boukari — Ingénieur logiciel",
-    "description": "Ingénieur logiciel full stack basé à Parakou, au Bénin. Je conçois des plateformes web et mobiles pour les entreprises et j'intègre l'IA là où elle fait gagner du temps.",
+    "title": "Haboudi BOUKARI — Ingénieur logiciel full stack au Bénin",
+    "description": "Haboudi BOUKARI, ingénieur logiciel full stack à Parakou, au Bénin. Je conçois des plateformes web et mobiles pour les entreprises et j'intègre l'IA là où elle fait gagner du temps.",
     "jobTitle": "Ingénieur logiciel · Futur ingénieur en IA et modélisation scientifique"
   },
   "nav": {
@@ -190,15 +190,15 @@
     "label": "Parcours",
     "title": "Concevoir des logiciels,",
     "titleEm": "modéliser les problèmes.",
-    "intro1": "Je suis Haboudi Boukari, ingénieur logiciel full stack basé à Parakou, au Bénin. Je développe depuis 2022 : d'abord en autodidacte, à travers des missions freelance, puis en entreprise. Mon travail couvre les sites et boutiques en ligne, les plateformes métier, les applications mobiles et l'intégration d'IA.",
+    "intro1": "Je suis Haboudi BOUKARI, ingénieur logiciel full stack basé à Parakou, au Bénin. Je développe depuis 2022 : d'abord en autodidacte, à travers des missions freelance, puis en entreprise. Mon travail couvre les sites et boutiques en ligne, les plateformes métier, les applications mobiles et l'intégration d'IA.",
     "intro2": "Je termine mon cycle d'ingénieur en informatique, logistique et recherche opérationnelle à l'ENSGMM. Cette formation m'a appris à modéliser un problème, à l'optimiser et à l'analyser à partir des données, avant d'écrire la première ligne de code.",
     "intro3": "Je suis ouvert aux missions freelance et aux postes d'ingénieur logiciel. En parallèle, j'approfondis l'apprentissage automatique en vue d'un master en IA.",
     "photoCaption": "Haboudi BOUKARI · Parakou, Bénin",
-    "photoAlt": "Portrait de Haboudi BOUKARI, bras croisés",
+    "photoAlt": "Portrait de Haboudi BOUKARI, ingénieur logiciel, bras croisés",
     "facts": [
       {
         "label": "Nom",
-        "value": "Haboudi BOUKARI"
+        "value": "BOUKARI Haboudi"
       },
       {
         "label": "Basé à",
@@ -248,7 +248,7 @@
     "titleEm": "rencontrent le terrain.",
     "intro": "Un domaine que je construis : la cartographie par drone, les systèmes d'information géographique et la télédétection, avec l'envie d'y appliquer l'intelligence artificielle.",
     "galleryLabel": "Choisir une carte",
-    "madeBy": "Réalisation : Haboudi Boukari",
+    "madeBy": "Réalisation : Haboudi BOUKARI",
     "openFull": "Ouvrir en grand",
     "skills": "Ce que je sais faire",
     "ndvi": "Lire une plante",
@@ -321,7 +321,7 @@
     }
   },
   "footer": {
-    "rights": "© 2026 Haboudi Boukari",
+    "rights": "© 2026 Haboudi BOUKARI",
     "cv": "CV"
   },
   "notFound": {

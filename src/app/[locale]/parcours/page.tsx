@@ -7,7 +7,8 @@ import { localePath } from "@/i18n/config";
 import { getDictionary, getLocale } from "@/i18n/get-dictionary";
 import { certifications, education, experience, skills } from "@/content/profile";
 import { t } from "@/content";
-import { pageMetadata } from "@/lib/seo";
+import { pageMetadata, profilePageJsonLd } from "@/lib/seo";
+import { JsonLd } from "@/components/seo/json-ld";
 import { site } from "@/lib/site";
 import { btnPrimary, btnSecondary } from "@/lib/ui";
 import { delay, Split } from "@/components/project/parts";
@@ -41,6 +42,7 @@ export default async function JourneyPage() {
 
   return (
     <div className="container-page">
+      <JsonLd data={profilePageJsonLd(locale, dict.meta.jobTitle, dict.meta.description)} />
       <header className="pb-28 pt-36 md:pt-40" data-reveal>
         <p className="mb-4.5 text-[13px] text-accent">{j.label}</p>
         <h1 className="m-0 max-w-[980px] font-serif text-[clamp(52px,6.4vw,96px)] font-normal leading-[0.98]">

@@ -50,36 +50,56 @@ export function pageMetadata({ locale, path, title, description }: PageSeo): Met
 
 export { OG_LOCALE };
 
-/** La personne et le site (page d'accueil). */
+/** La personne, décrite une seule fois et reprise par l'accueil et la page Parcours. */
+function personNode(locale: Locale, jobTitle: string, description: string) {
+  return {
+    "@type": "Person",
+    "@id": `${SITE_URL}/#person`,
+    name: site.fullName,
+    givenName: site.givenName,
+    familyName: site.familyName,
+    alternateName: [...site.alternateNames],
+    jobTitle,
+    description,
+    url: absoluteUrl(localePath(locale)),
+    image: absoluteUrl("/images/portrait-haboudi.jpg"),
+    email: `mailto:${site.email}`,
+    nationality: { "@type": "Country", name: "Bénin" },
+    homeLocation: { "@type": "Place", name: `${site.city}, ${site.country}` },
+    address: { "@type": "PostalAddress", addressLocality: site.city, addressCountry: site.countryCode },
+    alumniOf: { "@type": "CollegeOrUniversity", name: "École Nationale Supérieure de Génie Mathématique et Modélisation (ENSGMM), UNSTIM" },
+    knowsAbout: ["Software engineering", "Full-stack development", "Next.js", "React Native", "Machine learning", "Operations research", "GIS"],
+    sameAs: [site.github, site.linkedin, site.facebook, site.instagram].filter(Boolean),
+  };
+}
+
+/** La personne et le site (page d'accueil). Le nom du site est celui que Google affiche dans les résultats. */
 export function personJsonLd(locale: Locale, jobTitle: string, description: string) {
-  const sameAs = [site.github, site.linkedin].filter(Boolean);
   return {
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "Person",
-        "@id": `${SITE_URL}/#person`,
-        name: site.fullName,
-        alternateName: site.name,
-        jobTitle,
-        description,
-        url: absoluteUrl(localePath(locale)),
-        image: absoluteUrl("/images/portrait-haboudi.jpg"),
-        email: `mailto:${site.email}`,
-        address: { "@type": "PostalAddress", addressLocality: site.city, addressCountry: site.countryCode },
-        alumniOf: { "@type": "CollegeOrUniversity", name: "École Nationale Supérieure de Génie Mathématique et Modélisation (ENSGMM), UNSTIM" },
-        knowsAbout: ["Software engineering", "Full-stack development", "Next.js", "React Native", "Machine learning", "Operations research", "GIS"],
-        sameAs,
-      },
+      personNode(locale, jobTitle, description),
       {
         "@type": "WebSite",
         "@id": `${SITE_URL}/#website`,
         url: absoluteUrl(localePath(locale)),
-        name: site.name,
+        name: site.fullName,
+        alternateName: [site.alternateNames[0], `${site.fullName} — portfolio`],
         inLanguage: locale,
         publisher: { "@id": `${SITE_URL}/#person` },
       },
     ],
+  };
+}
+
+/** Page profil (Parcours) : la page parle d'une seule personne. */
+export function profilePageJsonLd(locale: Locale, jobTitle: string, description: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    url: absoluteUrl(localePath(locale, "/parcours")),
+    inLanguage: locale,
+    mainEntity: personNode(locale, jobTitle, description),
   };
 }
 

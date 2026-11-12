@@ -27,6 +27,9 @@ export const viewport: Viewport = {
   colorScheme: "dark",
 };
 
+const isPreview = Boolean(process.env.VERCEL_ENV) && process.env.VERCEL_ENV !== "production";
+const googleVerification = process.env.GOOGLE_SITE_VERIFICATION?.trim();
+
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const dict = await getDictionary(locale);
@@ -35,9 +38,14 @@ export async function generateMetadata(): Promise<Metadata> {
     title: { default: dict.meta.title, template: `%s — ${site.name}` },
     description: dict.meta.description,
     applicationName: site.name,
-    authors: [{ name: site.fullName }],
+    authors: [{ name: site.fullName, url: SITE_URL }],
+    creator: site.fullName,
     // Pas de canonique ici : chaque page déclare la sienne (pageMetadata).
     openGraph: { siteName: site.name, locale: OG_LOCALE[locale], type: "website" },
+    // Préversions Vercel : jamais indexées, même si un lien y mène (robots.txt les bloque aussi).
+    ...(isPreview ? { robots: { index: false, follow: false } } : {}),
+    // Google Search Console : code de la balise HTML, mis dans une variable sur Vercel.
+    ...(googleVerification ? { verification: { google: googleVerification } } : {}),
   };
 }
 

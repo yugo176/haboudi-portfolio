@@ -28,16 +28,23 @@ export function absoluteUrl(path: string): string {
 }
 
 export const site = {
-  name: "Haboudi Boukari",
+  name: "Haboudi BOUKARI",
   fullName: "Haboudi BOUKARI",
+  givenName: "Haboudi",
+  familyName: "BOUKARI",
+  /** Autres façons d'écrire le nom, pour les moteurs de recherche (ordre des documents officiels compris). */
+  alternateNames: ["BOUKARI Haboudi", "Haboudi Boukari", "Boukari Haboudi"],
   initials: "HB",
   email: "haboudboukari15@gmail.com",
   whatsapp: "2290194893522",
   whatsappDisplay: "+229 01 94 89 35 22",
   github: "https://github.com/yugo176",
   githubHandle: "yugo176",
-  /** Vide tant que l'adresse n'est pas confirmée : le lien est alors masqué. */
-  linkedin: "",
+  /** Vide = lien masqué. */
+  linkedin: "https://www.linkedin.com/in/haboudi-boukari-91a490343/",
+  /** Profils personnels : seulement dans les données structurées (sameAs), pas de lien visible. */
+  facebook: "https://web.facebook.com/BoukariHaboudi",
+  instagram: "https://www.instagram.com/its_haboud/",
   city: "Parakou",
   country: "Bénin",
   countryCode: "BJ",

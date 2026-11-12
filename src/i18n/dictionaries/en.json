@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Haboudi Boukari — Software engineer",
-    "description": "Full-stack software engineer based in Parakou, Benin. I build web and mobile platforms for businesses and bring in AI where it saves time.",
+    "title": "Haboudi BOUKARI — Full-stack software engineer in Benin",
+    "description": "Haboudi BOUKARI, full-stack software engineer in Parakou, Benin. I build web and mobile platforms for businesses and bring in AI where it saves time.",
     "jobTitle": "Software engineer · Future AI and scientific modelling engineer"
   },
   "nav": {
@@ -190,15 +190,15 @@
     "label": "About",
     "title": "Building software,",
     "titleEm": "modelling problems.",
-    "intro1": "I'm Haboudi Boukari, a full-stack software engineer based in Parakou, Benin. I've been coding since 2022: first self-taught through freelance projects, then within companies. My work covers websites and online shops, business platforms, mobile apps and AI integration.",
+    "intro1": "I'm Haboudi BOUKARI, a full-stack software engineer based in Parakou, Benin. I've been coding since 2022: first self-taught through freelance projects, then within companies. My work covers websites and online shops, business platforms, mobile apps and AI integration.",
     "intro2": "I'm completing my engineering degree in computer science, logistics and operations research at ENSGMM. It taught me to model a problem, optimise it and analyse it from data before writing the first line of code.",
     "intro3": "I'm open to freelance projects and software engineering roles. Alongside, I'm deepening my machine learning skills ahead of a master's in AI.",
     "photoCaption": "Haboudi BOUKARI · Parakou, Benin",
-    "photoAlt": "Portrait of Haboudi BOUKARI, arms crossed",
+    "photoAlt": "Portrait of Haboudi BOUKARI, software engineer, arms crossed",
     "facts": [
       {
         "label": "Name",
-        "value": "Haboudi BOUKARI"
+        "value": "BOUKARI Haboudi"
       },
       {
         "label": "Based in",
@@ -248,7 +248,7 @@
     "titleEm": "meets the field.",
     "intro": "A field I'm building up: drone mapping, geographic information systems and remote sensing, with the aim of applying artificial intelligence to them.",
     "galleryLabel": "Choose a map",
-    "madeBy": "Made by Haboudi Boukari",
+    "madeBy": "Made by Haboudi BOUKARI",
     "openFull": "Open full size",
     "skills": "What I can do",
     "ndvi": "Reading a plant",
@@ -321,7 +321,7 @@
     }
   },
   "footer": {
-    "rights": "© 2026 Haboudi Boukari",
+    "rights": "© 2026 Haboudi BOUKARI",
     "cv": "CV"
   },
   "notFound": {

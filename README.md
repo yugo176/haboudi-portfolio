@@ -56,3 +56,26 @@ des deux projets, hébergées sur Modal. Les adresses sont dans `src/lib/demos.t
 masque la démo) et sont ajoutées automatiquement à la politique de sécurité (`next.config.ts`).
 Chaque API n'accepte que les sites autorisés (CORS) : localhost:3000, haboudi.com et
 `haboudi-portfolio*.vercel.app`. Si l'adresse du site change, il faut l'ajouter côté API puis redéployer.
+
+## Référencement (Google)
+
+Dans le site : titres et descriptions qui commencent par « Haboudi BOUKARI », données structurées
+`Person` (nom, autres écritures dont « BOUKARI Haboudi », profils `sameAs`) et `WebSite` sur l'accueil,
+`ProfilePage` sur Parcours, canoniques et hreflang fr/en, sitemap, préversions Vercel en `noindex`.
+Les profils et les autres écritures du nom sont dans `src/lib/site.ts`.
+
+À faire hors du site :
+
+1. **Vercel** : importer le dépôt sous le nom `haboudi-portfolio`.
+2. **Google Search Console** (search.google.com/search-console) : ajouter une propriété
+   « Préfixe d'URL » avec l'adresse Vercel, méthode « Balise HTML ». Copier la valeur de `content="…"`
+   dans la variable `GOOGLE_SITE_VERIFICATION` sur Vercel, redéployer, puis cliquer sur « Valider ».
+   Envoyer ensuite `sitemap.xml` (menu Sitemaps) et demander l'indexation de `/fr` et `/en`
+   (Inspection de l'URL).
+3. **Profils** : mettre l'adresse du portfolio dans le champ « site web » de GitHub, LinkedIn,
+   Facebook, Instagram et FricaDev. Créer le README de profil GitHub (dépôt `yugo176/yugo176`)
+   avec le nom complet et le lien.
+4. **Plus tard** : acheter haboudi.com, l'ajouter sur Vercel, définir
+   `NEXT_PUBLIC_SITE_URL=https://haboudi.com`, ajouter une propriété « Domaine » dans Search Console
+   (vérification DNS) ; ajouter un crédit « Site réalisé par Haboudi BOUKARI » sur les sites clients,
+   avec leur accord.
