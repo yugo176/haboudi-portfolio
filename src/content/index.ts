@@ -10,6 +10,8 @@ const ORDER = [
   "leclore",
   "arinov",
   "nadjal-negoce",
+  "maladies-feuilles",
+  "synthese-vocale",
   "audio-cnn",
   "data-academy",
   "small-land-stock",

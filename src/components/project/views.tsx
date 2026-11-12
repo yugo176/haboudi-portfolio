@@ -6,6 +6,9 @@ import { projectImage } from "@/lib/project-image";
 import { ProjectVisual } from "@/components/visual/project-visual";
 import { CtaBand } from "@/components/ui/cta-band";
 import { AgroSimulator, AudioPipeline, AudioPredictions, IziniaArchitecture } from "./case-extras";
+import { LeafDemo } from "./demos/leaf-demo";
+import { TtsDemo, type TtsCopy } from "./demos/tts-demo";
+import { LEAF_API, TTS_API } from "@/lib/demos";
 import { Chips, delay, DetailHeader, DownloadButton, ExternalButton, HeroVisual, NextCase, Numbers, OtherProjects, Split } from "./parts";
 
 type ViewProps<P> = { project: P; locale: Locale; dict: Dictionary };
@@ -126,6 +129,16 @@ export function ProjectView({ project, locale, dict }: ViewProps<ProjectEntry>) 
       <Split label={dict.detail.context} className="mt-14">
         <p className="m-0 max-w-[820px] text-lg leading-[1.8]">{t(project.context, locale)}</p>
       </Split>
+      {project.demo === "tts" && TTS_API && (
+        <Split label={dict.demo.label}>
+          <TtsDemo copy={dict.demo.tts as TtsCopy} locale={locale} />
+        </Split>
+      )}
+      {project.demo === "leaf" && LEAF_API && (
+        <Split label={dict.demo.label}>
+          <LeafDemo copy={dict.demo.leaf} locale={locale} />
+        </Split>
+      )}
       <Split label={dict.detail.built}>
         <Items items={project.features} locale={locale} />
       </Split>

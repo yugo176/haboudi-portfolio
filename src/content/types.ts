@@ -66,6 +66,8 @@ export type ProjectEntry = Base & {
   features: Item[];
   numbers: Metric[];
   state: L;
+  /** Démo en direct sur la page (appelle l'API en ligne du projet). */
+  demo?: "tts" | "leaf";
 };
 
 /** Travail académique : résumé, démarche, résultats, PDF. */

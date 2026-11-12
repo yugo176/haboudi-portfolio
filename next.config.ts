@@ -1,16 +1,19 @@
 import type { NextConfig } from "next";
+import { DEMO_ORIGINS } from "./src/lib/demos";
 
 const isProd = process.env.NODE_ENV === "production";
 
 // Politique de sécurité du contenu : tout vient du site lui-même. Le formulaire de contact
-// passe par une action serveur, donc aucun appel réseau vers un tiers depuis le navigateur.
+// passe par une action serveur. Seules exceptions : les API des démos IA (src/lib/demos.ts),
+// appelées depuis le navigateur, et l'audio qu'elles renvoient (blob:).
 const csp = [
   "default-src 'self'",
   `script-src 'self' 'unsafe-inline'${isProd ? "" : " 'unsafe-eval'"}`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob:",
   "font-src 'self'",
-  "connect-src 'self'",
+  `connect-src 'self' ${DEMO_ORIGINS.join(" ")}`.trim(),
+  "media-src 'self' blob:",
   "frame-ancestors 'none'",
   "base-uri 'self'",
   "form-action 'self'",

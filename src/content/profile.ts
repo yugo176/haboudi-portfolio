@@ -23,15 +23,14 @@ export const services: Service[] = [
   },
 ];
 
-/** Frise de l'accueil. */
+/** Frise de l'accueil, de la plus récente à la plus ancienne. */
 export const timeline: TimelineStep[] = [
-  { period: { fr: "2021", en: "2021" }, title: { fr: "Premières missions freelance", en: "First freelance projects" }, place: { fr: "En autodidacte, à Parakou", en: "Self-taught, in Parakou" } },
-  { period: { fr: "2022", en: "2022" }, title: { fr: "Baccalauréat, série C", en: "Baccalaureate, maths & physics" }, place: { fr: "CEG Zongo, Parakou", en: "CEG Zongo, Parakou" } },
-  { period: { fr: "2024", en: "2024" }, title: { fr: "Classes préparatoires", en: "Preparatory classes" }, place: { fr: "INSPEI, Abomey · diplôme obtenu", en: "INSPEI, Abomey · diploma" } },
-  { period: { fr: "2024 – 2025", en: "2024 – 2025" }, title: { fr: "Développeur full stack", en: "Full-stack developer" }, place: { fr: "Couliflex · base de données, API et application mobile", en: "Couliflex · database, API and mobile app" } },
-  { period: { fr: "Depuis 2025", en: "Since 2025" }, title: { fr: "Développeur backend", en: "Backend developer" }, place: { fr: "Data Afrique Hub · plateforme Data Academy", en: "Data Afrique Hub · Data Academy platform" } },
+  { period: { fr: "Aujourd'hui", en: "Today" }, title: { fr: "Cycle ingénieur, 3ᵉ année", en: "Engineering degree, final year" }, place: { fr: "ENSGMM · UNSTIM, Abomey", en: "ENSGMM · UNSTIM, Abomey" } },
   { period: { fr: "2026", en: "2026" }, title: { fr: "Missions pour des clients", en: "Client projects" }, place: { fr: "APIFOP (France) · Solution NOW · Small Land", en: "APIFOP (France) · Solution NOW · Small Land" } },
-  { period: { fr: "Aujourd'hui", en: "Today" }, title: { fr: "Cycle ingénieur, 3ᵉ année", en: "Engineering degree, final year" }, place: { fr: "ENSGMM · UNSTIM, Abomey · puis un master en IA", en: "ENSGMM · UNSTIM, Abomey · then a master's in AI" } },
+  { period: { fr: "Depuis 2025", en: "Since 2025" }, title: { fr: "Développeur backend", en: "Backend developer" }, place: { fr: "Data Afrique Hub · plateforme Data Academy", en: "Data Afrique Hub · Data Academy platform" } },
+  { period: { fr: "2024 – 2025", en: "2024 – 2025" }, title: { fr: "Développeur full stack", en: "Full-stack developer" }, place: { fr: "Couliflex · base de données, API et application mobile", en: "Couliflex · database, API and mobile app" } },
+  { period: { fr: "2024", en: "2024" }, title: { fr: "Classes préparatoires", en: "Preparatory classes" }, place: { fr: "INSPEI, Abomey · diplôme obtenu", en: "INSPEI, Abomey · diploma" } },
+  { period: { fr: "2022", en: "2022" }, title: { fr: "Baccalauréat, série C", en: "Baccalaureate, maths & physics" }, place: { fr: "CEG Zongo, Parakou", en: "CEG Zongo, Parakou" } },
 ];
 
 export const experience: Experience[] = [
@@ -41,7 +40,7 @@ export const experience: Experience[] = [
   { period: { fr: "Fév. — mai 2026", en: "Feb. — May 2026" }, role: { fr: "Ingénieur logiciel", en: "Software engineer" }, org: "Solution NOW", body: { fr: "Optimisation de SNOW VIEW, une plateforme sociale pour créateurs de contenu.", en: "Optimisation of SNOW VIEW, a social platform for content creators." } },
   { period: { fr: "Déc. 2025 — fév. 2026", en: "Dec. 2025 — Feb. 2026" }, role: { fr: "Développeur WordPress", en: "WordPress developer" }, org: "APIFOP", body: { fr: "Refonte du site d'un centre de formation professionnelle certifié Qualiopi, au Bourget (France).", en: "Redesign of a Qualiopi-certified vocational training centre's website, in Le Bourget (France)." } },
   { period: { fr: "Juil. 2024 — août 2025", en: "July 2024 — Aug. 2025" }, role: { fr: "Développeur full stack", en: "Full-stack developer" }, org: "Couliflex", body: { fr: "Base de données, API REST et interfaces de l'application mobile de livraison entre particuliers.", en: "Database, REST API and interfaces of the peer-to-peer delivery mobile app." } },
-  { period: { fr: "2021 — 2024", en: "2021 — 2024" }, role: { fr: "Développeur freelance", en: "Freelance developer" }, org: "Activité indépendante", body: { fr: "Premiers sites et applications pour des particuliers et de petites structures, en me formant en autodidacte.", en: "First websites and apps for individuals and small organisations, while teaching myself." } },
+  { period: { fr: "2022 — 2024", en: "2022 — 2024" }, role: { fr: "Développeur freelance", en: "Freelance developer" }, org: "Activité indépendante", body: { fr: "Premiers sites et applications pour des particuliers et de petites structures, en me formant en autodidacte.", en: "First websites and apps for individuals and small organisations, while teaching myself." } },
 ];
 
 export const education: Education[] = [

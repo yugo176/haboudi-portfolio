@@ -48,3 +48,11 @@ Les fichiers sources (CV Word, archives, rapport de stage…) sont dans `sources
 ## Règles
 
 Voir `AGENTS.md` : aucune animation ne bloque le défilement, rien n'est visible seulement au survol, contenu honnête.
+
+## Démos IA en direct
+
+Les pages « Synthèse vocale » et « Maladies des feuilles » appellent depuis le navigateur les API
+des deux projets, hébergées sur Modal. Les adresses sont dans `src/lib/demos.ts` (une adresse vide
+masque la démo) et sont ajoutées automatiquement à la politique de sécurité (`next.config.ts`).
+Chaque API n'accepte que les sites autorisés (CORS) : localhost:3000, haboudi.com et
+`haboudi-portfolio*.vercel.app`. Si l'adresse du site change, il faut l'ajouter côté API puis redéployer.
